@@ -23,5 +23,5 @@ export interface Prompt {
 
 const cardData: Prompt[] = new Array(10).fill(null).map(() => ({
   cardTitle: faker.word.words(2),
-  cardSubtitle: faker.word.words(6),
+  cardSubtitle: faker.word.words(4),
 }));
